@@ -1,0 +1,68 @@
+{
+  "scope": "alibabacloud",
+  "name": "{{productId}}",
+  "version": "0.0.1",
+  "main": "./main.tea",
+  "maintainers": [
+    {
+      "name": "Alibaba Cloud SDK",
+      "email": "sdk-team@alibabacloud.com"
+    }
+  ],
+  "java": {
+    "package": "com.aliyun.{{pureLowerCaseId}}",
+    "packageInfo": {
+      "description": "Alibaba Cloud {{productId}} SDK for Java",
+      "url": "https://github.com/aliyun/alibabacloud-sdk",
+      "licenseNmae": "The Apache License, Version 2.0",
+      "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "developerId": "aliyunproducts",
+      "developerName": "Aliyun SDK",
+      "developerEmail": "aliyunsdk@aliyun.com"
+    }
+  },
+  "releases": {
+    "java": "com.aliyun:{{lowerCaseId}}:0.0.1",
+    "go": "github.com/alibabacloud-go/{{lowerCaseId}}/client:v1.0.0",
+    "csharp": "AlibabaCloud.SDK.{{upperCamlId}}:0.0.1",
+    "ts": "@alicloud/{{lowerCaseId}}:^1.0.0",
+    "php": "alibabacloud/{{lowerCaseId}}:^0.1.0",
+    "python": "alibabacloud_{{lowerCaseId}}:0.0.1"
+  },
+  "libraries": {
+    "Util": "darabonba:Util:*"
+  },
+  "csharp": {
+    "className": "Client",
+    "namespace": "AlibabaCloud.SDK.{{pureUpperCamlId}}",
+    "packageInfo": {
+      "name": "{{lowerCaseId}}",
+      "title": "alibabacloud-{{lowerCaseId}}",
+      "description": "Alibaba Cloud {{productId}} SDK Library for .NET",
+      "company": "Alibaba Cloud, Inc"
+    }
+  },
+  "php": {
+    "package": "AlibabaCloud.SDK.{{upperFirstPureProductId}}",
+    "clientName": "{{upperFirstPureProductId}}",
+    "packageInfo": {
+      "name": "alibabacloud/{{lowerCaseId}}",
+      "desc": "Alibaba Cloud {{productId}} SDK Library for PHP",
+      "github": "https://github.com/aliyun/alibabacloud-sdk",
+      "files": {
+        "LICENSE": "../LICENSE"
+      }
+    }
+  },
+  "python": {
+    "package": "alibabacloud_{{pureLowerCaseId}}",
+    "clientName": "client",
+    "packageInfo": {
+      "name": "alibabacloud_{{lowerCaseId}}",
+      "desc": "Alibaba Cloud {{productId}} SDK Library for Python",
+      "github": "https://github.com/aliyun/alibabacloud-sdk",
+      "author": "Alibaba Cloud SDK",
+      "email": "sdk-team@alibabacloud.com"
+    }
+  }
+}

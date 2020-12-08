@@ -1,0 +1,16 @@
+node_modules/
+*/typescript/dist/
+*/ts/dist/
+.DS_Store
+doc/
+.classpath
+.project
+.vscode
+.settings
+target/
+.idea/
+*/java/*.iml
+obj/
+.libraries.json
+libraries/
+go.sum
