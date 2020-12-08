@@ -1,0 +1,26 @@
+{
+  "name": "@darabonba/swagger-converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/codegen.js",
+  "bin": {
+    "swagger-codegen": "bin/codegen.js"
+  },
+  "scripts": {
+    "lint": "eslint --fix bin/ lib/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:aliyun/darabonba-swagger.git"
+  },
+  "author": "Alibaba Cloud OpenAPI Team",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "js-yaml": "^3.13.1",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "@darabonba/cli": "^1.1.6",
+    "eslint": "^6.5.1"
+  }
+}
